@@ -52,13 +52,8 @@ Here is the output schema(Never use json markdown):
     "properties": {
       "date": {
         "type": "string",
-        "title": "Date",
-        "description": "일정 날짜 및 기간"
-      },
-      "time": {
-        "type": "string",
-        "title": "Time",
-        "description": "일정 시간"
+        "title": "DateTime",
+        "description": "일정 날짜 및 기간, 시간"
       },
       "description": {
         "type": "string",
